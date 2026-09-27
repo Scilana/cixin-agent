@@ -1,0 +1,299 @@
+{
+  "project": "cixin-agent",
+  "edition": "standalone-cixin-competition-demo",
+  "sourceCommit": "1fb7c1d",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "10e7e18856ce4e301bd251af4b4d720b692d21c2fece0c7f6c038707c663c4a2"
+    },
+    {
+      "path": "config/board.example.json",
+      "sha256": "630e615344d6f7a3b6493195e91b8957cf72775ad6ba83f5e9ae1c5247b8e518"
+    },
+    {
+      "path": "config/host.example.json",
+      "sha256": "060cb93783edbb27b960ce5868bbc8a5dd52fe134d2800dbcb08ffa2e2fe652f"
+    },
+    {
+      "path": "config/p1.example.json",
+      "sha256": "7e01af1a9cd1d728b450587c092852c255f166473ec2de39c736362279627237"
+    },
+    {
+      "path": "deploy/cixin-agent.service",
+      "sha256": "f911ecefc1c1957e19008c6ab8bdecf1b39a69caa6d568bfcc877fb5bf4dfd49"
+    },
+    {
+      "path": "docs/worker接入契约.md",
+      "sha256": "21340e9d33ee24c023d03964289cba69afca10d722dd5e7d4222751bc10abc63"
+    },
+    {
+      "path": "docs/云端数据库改造方案.md",
+      "sha256": "05469bbeb1f87e1ce8d18a4b8374c349256999b4b9694ae6123e37916ec266d0"
+    },
+    {
+      "path": "docs/网络画像接入说明.md",
+      "sha256": "405bcd93b51f7a6eb2ddbbe81c189a659b7e6ad9ffdd1f48d07e82aa20d21a3a"
+    },
+    {
+      "path": "docs/调度盘与演示App接入测试.md",
+      "sha256": "4c3b186f21cf9ec8ce58ed8177da7adb7effb49610cc509ec8481e8958154d5c"
+    },
+    {
+      "path": "docs/迁移后的Cixin项目架构.md",
+      "sha256": "8e804e1b1bcfcec0e12d53b645c4da01d2ef23a49eef3689301cd768cc5e1311"
+    },
+    {
+      "path": "examples/vector-task.json",
+      "sha256": "aedb1b22498b5d35ab04dc76493e03a0d11f965428ec27c8bc58873caf74d75d"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "5d8827b1da90690b6998bef04bd459f11ba2cc99750163753479bc353743b4bf"
+    },
+    {
+      "path": "package.json",
+      "sha256": "b6d22421f610de0a0aa62e9cb20389445a53ef1c184c2086721cc92d37d8f2c3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c06a3ad6ab697c294a02f71cc9f6cf4610f8b2d21d6a72bd57ab106378046c0"
+    },
+    {
+      "path": "scripts/console.cjs",
+      "sha256": "3ec282bb6f5ccf4b8be480569d63896df1b0f653a25ca26c06fa4cc69de8a6cc"
+    },
+    {
+      "path": "scripts/demo.cjs",
+      "sha256": "d39fbaea154ea80ef14704a84a5fdd3951cba41cd37085821db59bbb338c09d0"
+    },
+    {
+      "path": "src/cli.ts",
+      "sha256": "22b0297cbfb7b00cbca3151d4f86ca6dd72ea65dcab80ee874d32dba977ad044"
+    },
+    {
+      "path": "src/contracts/cixin.ts",
+      "sha256": "cad5f4a57248657a914d1dfad5d3e8750acb0aef8b0af05c5b532062bcaff78d"
+    },
+    {
+      "path": "src/contracts/fleet.ts",
+      "sha256": "dd8b6437c56548ea149e42ef6792d2ad5fe6da30c66fde6bd854f96564c5c68b"
+    },
+    {
+      "path": "src/index.ts",
+      "sha256": "dc440e692086ce8922bb5511179be08c789801dc44ee131c6c1d120787a4b692"
+    },
+    {
+      "path": "src/platform/linux-board.ts",
+      "sha256": "0db2adbbc457befe87d90f4ee58a239883484e74a6630ae0f65cac0eaecbe585"
+    },
+    {
+      "path": "src/plugins/process-worker.ts",
+      "sha256": "ba63a40d5d83e67d1fed95af2b4d53e9cc961aa42f20e8df0f22b4b16d08fde8"
+    },
+    {
+      "path": "src/plugins/vector-search.ts",
+      "sha256": "b533dc85748838a4d92542bcaec0fe6a0c3d87afff00e604294bd2210969dde0"
+    },
+    {
+      "path": "src/runtime/board-node.ts",
+      "sha256": "03d5d0f70ee8e0f187c8509f2597b095703cc36f9b2c9e48762be241e687a21d"
+    },
+    {
+      "path": "src/runtime/config.ts",
+      "sha256": "aba7f4410f8536fe412e1c4117ad5dde46f617b51ca660a70443593e2ee0cc91"
+    },
+    {
+      "path": "src/runtime/dashboard.ts",
+      "sha256": "57c4b26560961bf8bac0f1cd7879546ac87ff53626bc25fb1dff3eb2d517fc4b"
+    },
+    {
+      "path": "src/runtime/fleet-runtime.ts",
+      "sha256": "0aedb88bc5605cb0b879382aa9e6cff110879343a5aa467f14c8d61345993d80"
+    },
+    {
+      "path": "src/runtime/http-server.ts",
+      "sha256": "7c07ad89de26f25cb3bd496782984ff23fe98b83977a3d94e60bf022247b1aca"
+    },
+    {
+      "path": "src/runtime/process-lock.ts",
+      "sha256": "fa06386954e11394e91935ed089fc7619d40976b4f52d1d7e2b90504ecf3c744"
+    },
+    {
+      "path": "src/runtime/tool-registry.ts",
+      "sha256": "367c46ed3b6ce4d49dd7f387e2fa1d3c713b824af38cb822395d7d257fa72b71"
+    },
+    {
+      "path": "src/runtime/transport.ts",
+      "sha256": "1d3f8f42559b8f45255179f5bc00ac09c64f7bc5df91e37d6861e47c7ee71708"
+    },
+    {
+      "path": "src/runtime/util.ts",
+      "sha256": "9588bf52ccbb4a20768e6083d38c9de9f905a1ea4a93a3680dc9c6482217dfd0"
+    },
+    {
+      "path": "src/scheduler/api/RemoteRouteProfile.ts",
+      "sha256": "a0e0e546137f58c31db960d2c79846977b77831ab7e62076b4b5c60a2d353907"
+    },
+    {
+      "path": "src/scheduler/api/SchedulerClient.ts",
+      "sha256": "e990c94b010ce4b499e548f66eb4ce5ac271d2dc34b234e769deec1304fe5580"
+    },
+    {
+      "path": "src/scheduler/api/SchedulerError.ts",
+      "sha256": "8231e6a638cfbb304c06b0e3b8b2b409a483e7f90657119a9e26b2a6acd2a86d"
+    },
+    {
+      "path": "src/scheduler/api/SchedulerService.ts",
+      "sha256": "f8a36650e77de762fa4bcae8ea19a434ec2c5f0a6d6eedf57eec69a37594d6e5"
+    },
+    {
+      "path": "src/scheduler/api/SchedulerTypes.ts",
+      "sha256": "f36ba22de8cfe231b9d4581baa181ea368c350b94221df4daa9127cb888a13eb"
+    },
+    {
+      "path": "src/scheduler/executor/CancellationController.ts",
+      "sha256": "ac2ddde12a0ef7a3bbb80c0430fe13a98f6bcb97e5ab35493d95efeac72f597c"
+    },
+    {
+      "path": "src/scheduler/executor/ExecutorRegistry.ts",
+      "sha256": "b859ff212a452ce0b0a4880a80d69f351cdcf71b03f08b5823f8ddac12c08a17"
+    },
+    {
+      "path": "src/scheduler/placement/PlacementPolicy.ts",
+      "sha256": "adffaf0d1f1bd76e2b77105a2baa48752b8443e01b5c79729da38fbe3a14ad6a"
+    },
+    {
+      "path": "src/scheduler/policy/AdaptiveCostModel.ts",
+      "sha256": "1c7d922bb57d1ef5ddceffc19a2829026fd19965141d07925b231de9e57f8ddc"
+    },
+    {
+      "path": "src/scheduler/policy/ConstrainedPolicy.ts",
+      "sha256": "168d251804ff8b05bed6649861b2d80356c72c49a0b4e916413e795af1c70892"
+    },
+    {
+      "path": "src/scheduler/policy/FeedbackCalibration.ts",
+      "sha256": "4dae939f3b72e23247de3d897dd7a5a8975f799bfd345b051ac5b33472a0783b"
+    },
+    {
+      "path": "src/scheduler/policy/FeedbackController.ts",
+      "sha256": "01aa04861cf452c291ea12b2f55bf5d642f3d815b4fece20a73d15ab1fb29ee4"
+    },
+    {
+      "path": "src/scheduler/policy/HysteresisController.ts",
+      "sha256": "567c85d1b526b45e54764a0c84db710f633af2b88c90661d6b099bd02728dc5a"
+    },
+    {
+      "path": "src/scheduler/policy/InterferenceModel.ts",
+      "sha256": "461afc0b3dcdf79cc8e8f3f07ae28dd64b262aa5e361629919b02423dc61ac84"
+    },
+    {
+      "path": "src/scheduler/policy/MarginalAllocation.ts",
+      "sha256": "14fe7cc296dbd580570bf39a7e5b5643529e079e9e45b33eecf037cfdf782925"
+    },
+    {
+      "path": "src/scheduler/policy/PolicyMetrics.ts",
+      "sha256": "38131f5a1deb66bc393b4dda2809b3f3bce433f3b9ab4e0508874e39843496e1"
+    },
+    {
+      "path": "src/scheduler/policy/ProfileContract.ts",
+      "sha256": "b37f902de9eccb9c194f0052c815f6f8fcf7fcfcfb527412b31e2450b3013c13"
+    },
+    {
+      "path": "src/scheduler/policy/SchedulerPolicy.ts",
+      "sha256": "c7a560126f6e999c3287dba67dd22184392c6250e216ffcd757c806994e2f0cb"
+    },
+    {
+      "path": "src/scheduler/policy/SchedulerReasonCode.ts",
+      "sha256": "ddfb7f3cc1f8442117bb874ed13231e67d00cee810bc7685e8e843edc89e1ad2"
+    },
+    {
+      "path": "src/scheduler/policy/SemanticPolicy.ts",
+      "sha256": "c790531fe00f8526d745805f13289e0c9fe6a8871d9df3c31dd41f7acd28e43a"
+    },
+    {
+      "path": "src/scheduler/policy/WorkflowPlanner.ts",
+      "sha256": "4ba9478121bcb738378be2b2942c70a513267b23c348c38b984aaee888ccdb26"
+    },
+    {
+      "path": "src/scheduler/queue/TaskQueue.ts",
+      "sha256": "fca82cf5454b48736c6e06ca723c7e069f9cd8d414ab72db43551b599c41bf96"
+    },
+    {
+      "path": "src/scheduler/state/DeviceStateController.ts",
+      "sha256": "180f0fbdba35570947f6fe8c0f9cb88ba543d6d5e4b2424dcee948876bd03025"
+    },
+    {
+      "path": "src/scheduler/state/ResourceUnits.ts",
+      "sha256": "bb7570d53a88b0f0e0d2bddcf7042de02a6696fd2dab86b3db6cfc224aeffb1e"
+    },
+    {
+      "path": "test/dashboard.test.cjs",
+      "sha256": "bea518b37fad0af8c2354ddc8fdc0fb3e40c72acaf2e21ec584f5119fd4040cf"
+    },
+    {
+      "path": "test/fixtures/worker.cjs",
+      "sha256": "c0caed3842e1043da7b7a889288682cc24cb463836d3738597433d2d9a9ebded"
+    },
+    {
+      "path": "test/fleet.test.cjs",
+      "sha256": "569fcaab7f7ecd16b5dce3aeb13fc68d7d25961bde25e4364629db9756c31fe5"
+    },
+    {
+      "path": "test/helpers.cjs",
+      "sha256": "dd92ffdc983c3d96818a7fd6f4ff0957a459b26f228cd4ba142d2228687d9adb"
+    },
+    {
+      "path": "test/platform-worker.test.cjs",
+      "sha256": "3e25c061b61c185b9846c52d59a8b6b5ae116c117ab13b30868c272993cc461b"
+    },
+    {
+      "path": "test/route-profile.test.cjs",
+      "sha256": "3bf159c54ac9eb43dc703e7b5cc45f4edd1ce8c7058c8c10c3a59d9a6b4575fa"
+    },
+    {
+      "path": "test/test-local-algorithm.test.cjs",
+      "sha256": "4d2bebffc4e81430135e84f2240abe0ca3c95d002fbd544e699d4bf162bbe66e"
+    },
+    {
+      "path": "test/test-local-concurrency.test.cjs",
+      "sha256": "fde6d9b353bba4883c0ff351ca663f2281cadbbc88f2a682b693c9b721533c10"
+    },
+    {
+      "path": "test/test-placement.test.cjs",
+      "sha256": "7b7e6c5d82138a43c32992a347d6c573188c8d94d6b3a9a170d3ac4a0cc01520"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "17c0f259ac2e82b0f2941535bf8d679582f976f08b32ed9a181c9ebfdddb5830"
+    },
+    {
+      "path": "web/client.js",
+      "sha256": "160170ee71c5069a0099ee300c854bc179037884944f18bf8add9c21b3567a73"
+    },
+    {
+      "path": "web/console.css",
+      "sha256": "9d9322990dc2235352ff790ef9c21c3b815ce208cbd8cb58ee785e64212eccc3"
+    },
+    {
+      "path": "web/dashboard.html",
+      "sha256": "4901b6529f6e541e71e90a86f4c0688cab8c12e1e1c53039903cb11647b60c86"
+    },
+    {
+      "path": "web/dashboard.js",
+      "sha256": "f0792e2bf540f99a97f86611beec1ff76d83b24cb13bb3228626da3b932015d3"
+    },
+    {
+      "path": "web/demo.html",
+      "sha256": "6b68dc92f234c0332659663e72c683dcdc4e0dbb540d0e35a1cd560cfab0210e"
+    },
+    {
+      "path": "web/demo.js",
+      "sha256": "454633c8e0379cbdfa2fe670159230d90ba9442739b47e5bd63a4e14c933505a"
+    }
+  ]
+}
